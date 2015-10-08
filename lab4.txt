@@ -1,0 +1,9 @@
+This is a Mealy machine because the state machine has 4 state bits and the outputs will need to be a function state.
+Person	Wolf	Goat	Cabbage	x	P+	W+	G+	C+	z
+0	0	0	0	1	1	0	1	0	0
+1	0	1	0	1	0	0	1	0	0
+0	0	1	0	1	1	1	1	0	1
+1	1	1	0	1	0	1	0	0	1
+0	1	0	0	1	1	1	0	1	1
+1	0	1	1	1	0	1	0	1	0
+0	1	0	1	1	1	1	1	1	0
