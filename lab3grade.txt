@@ -1,0 +1,21 @@
+1. -5: (really -1 for each problem - write out the name of the rule for each step)
+
+2. good
+
+3. -2: (1) + (a*c) + c - with the 1 there, it's always true
+
+4. -5: this works out to a + b
+
+5. -3: (a'*a) is 0, not 1
+
+6. -5: Should have majority output instead of all 0's as MUX input
+
+7. -5: should have constant values as inputs and variables as selectors
+
+8. -2: other way around - there are 6 states so you need 3 state bits, and 3 possible inputs, so you need 2 input bits
+
+9. -10
+
+10. -10
+
+
