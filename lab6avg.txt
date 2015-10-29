@@ -1,0 +1,18 @@
+#Average
+
+ADD R0 5 R0	#The Number in the array
+ADD R2 3 R0	#The values in the array
+ADD R3 4 R0
+ADD R4 7 R0
+ADD R5 2 R0
+ADD R6 4 R0
+
+ADD R7 R2 R3	#Adds all the values until they are one.
+ADD R8 R4 R5
+ADD R9 R7 R8
+ADD R10 R9 R6
+DIV R11 R10 R0	#Divids the total by the number of the array
+
+ADD R0 R11 R0	#Sets the new 0 register as the new value
+
+STOR R0 

@@ -1,0 +1,14 @@
+#Minimum
+
+0840    #Registers a at 0x8
+0a60	#Registers b at 0xA
+
+318a	#R1 is now the difference between a and b
+32a8	#R2 is now the difference between b and a
+6312	#Makes sure both numbers aren't the same
+	
+83mm	
+828	#Goes to a if it is 0
+81a	#Goes to b if it is 0
+
+c0mm
