@@ -1,0 +1,12 @@
+avg: you can't store a non-zero value in r0 -2
+the ADD instruction uses 3 registers, not a register and immediate -3
+if you could change the value of r0, STOR r0 wouldn't store the average in the correct location. -3
+this program finds the average of the array [3 4 7 2 4]. Technically this fulfills the spec. It would be more useful if the program could find the average of an arbitrary array, though.
+
+min: the ADD instruction uses 3 registers, not a register and immediate -3
+you should use LOAD instructions initially to get the values to compare -3
+If I understand your code correctly, your comments are misleading.
+missing line numbers in jump instructions -6
+missing final STOR -3
+
+some of your machine code lines only have 3 digits -2
