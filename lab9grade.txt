@@ -1,0 +1,3 @@
+Missing the comparitor component, so the Rx input isn't helping decide if a jump instruction is followed or ignored.
+The PC isn't incremented correctly.
+The PC controller doesn't include the actual program counter, so the register shouldn't be inside the circuit. It's purely a combinational circuit.
